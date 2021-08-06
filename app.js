@@ -11,7 +11,7 @@ userRoutes = require('./routes/user.js');
 port = process.env.PORT || 3000;
 const session = require('express-session');
 const flash = require('connect-flash');
-const dbUrl = "mongodb+srv://Rmanager:rakshith@requestmanager.qxqre.mongodb.net/RQ_DB?retryWrites=true&w=majority";
+const dbUrl = "your db url";
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
     useCreateIndex: true,
