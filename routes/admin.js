@@ -1,8 +1,8 @@
 const express = require('express');
 Request = require('../public/model/request.js');
 const router = express.Router();
-const id = 'AC07f354b2230d1d7c82d25e5c839eb8c2';
-const token = '71be51596e398b7b6f2915c7179b0e56';
+const id = 'id';
+const token = 'token';
 Worker = require('../public/model/worker.js');
 const client = require('twilio')(id, token);
 
